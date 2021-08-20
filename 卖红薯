@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int coding=0;
+  printf("你会敲代码吗？（选择1or0）:>");
+  scanf("%d",&coding);
+  {
+    printf("坚持会有好offer\n");
+  }
+  else
+  {
+    printf("放弃回家卖红薯\n");
+  }
+  return 0;
+}
