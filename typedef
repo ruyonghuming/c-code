@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+  typedef unsigned  int u_int;
+  unsigned int num1=20;
+  u_int num2=20;
+  return 0;
+}
