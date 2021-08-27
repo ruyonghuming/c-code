@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+ struct Book b1={"C语言程序设计"，55}；
+ struct Book*pb=&b1;
+ printf("%s\n",pb->name);
+ printf("%d\n",pb->price);
+ return 0;
+} 
