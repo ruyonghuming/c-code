@@ -1,0 +1,7 @@
+#include<string.h>
+int main()
+{
+ struct Book b1={"C语言程序设计",55};
+ strcpy(b1.name,"C++");
+ printf("%s\n",b1.name);
+}
